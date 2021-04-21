@@ -1,0 +1,128 @@
+body{
+    /* border: 2px solid red; */
+    background: url('pictures/gym.jpg');
+    background-repeat: no-repeat; 
+    
+}
+.header{
+    
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    
+}
+.left li{
+    width: 105px;
+    font-size: 23px;
+}
+.left li img{
+    width: 32px;
+    padding-left: 8px;
+}
+.navbar li{
+    list-style-type:none;
+    color: white;
+    
+}
+.navbar2{
+    display: inline-block;
+
+}
+.navbar2 li{
+    list-style-type: none;
+    
+}
+.navbar2 li a{
+    
+    text-decoration: none;
+    color: white;
+}
+.navbar2 li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.left{
+    color: white;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    margin: auto;
+    
+}
+.mid{
+    color : white;
+    /* border: 2px solid green; */
+    display: inline-block;
+    
+    margin: auto;
+    margin-left: 344px;
+    box-sizing: border-box;
+    
+}
+.right{
+    color: white;
+    /* border: 2px solid red; */
+    float: right;
+    margin: 7px 42px;
+    font-size: 20px;
+}
+.right img{
+    filter: invert(100%);
+    width: 18px;
+    /* display: inline-block; */
+}
+.right li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#m{
+    color: orange;
+}
+.navbar ul li img{
+    width: 20px;
+    padding-left: 2px;
+}
+.icon{
+    display: inline-block;
+    color:orangered !important;
+
+}
+.container{
+    /* border: 2px solid red; */
+    color: white;
+    display: inline-block;
+    margin: 250px 1200px;
+    width:500px;
+}
+.heading{
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 30px 0px;
+    
+}
+.container p{
+    color:white;
+    font-size: 50px;
+    margin: auto;
+}
+.span{
+    color: orange;
+}
+.btn{
+    margin: 35px 0px;
+    
+
+}
+.btn button{
+    background-color: orange;
+    border:none;
+    color: white;
+    font-size: 13px;
+    padding: 15px 20px
+}
+.btn :hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+
